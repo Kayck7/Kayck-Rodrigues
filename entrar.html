@@ -1,0 +1,56 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8" />
+        <link href="entrar.css" rel="stylesheet">
+        <title>Registrar</title>
+    </head>
+    <form>
+    <body>
+        <fieldset class="box-registrar">
+            <legend>
+                <img src="https://media.giphy.com/media/FkQXlS3JxRt4MKA2l0/giphy.gif" width="70" height="70">
+            </legend>
+            <div>
+            <a class="titulo">
+            <h2>Cadastrar</h2> 
+            </a>
+                <br>
+
+            </div>
+            <div class="grupo">
+                <label>Nome:</label>
+                <br>
+                <input type="text" placeholder="Escolha um nome para o site" maxlength="25"  name="nome">
+            </div>
+            <div class="grupo">
+                <label>Email:</label>
+                <br>
+                <input type="email" placeholder="Escreva seu email aqui" name="email" maxlength="40">
+            </div>
+            <div class="grupo">
+                <label for="senha">Senha:</label>
+                <input id="senha" type="password" placeholder="Digite uma senha" minlength="9" name="senha">
+                <span class="show-password" onclick="togglePassword()">Mostrar Senha</span>
+            </div>
+            <div>
+                <label>Sexo:</label>
+                <select class="sexo">
+                    <option value="homem">Maculino</option>
+                    <option value="mulher">Feminino</option>
+                    <option value="outroSexo">Outro</option>
+                </select>
+                <label class="nascimento-label">Data de Nascimento:</label>
+                <input class="nascimento-input" type="date">
+            </div>
+            <div>
+                <input class="limpar" type="reset" value="Limpar">
+                <input class="pronto" type="submit" valor="Enviar">
+            </div>
+
+           
+        </fieldset> 
+        <script src="registrar.js"></script>
+    </form>
+    </body>
+    </html>

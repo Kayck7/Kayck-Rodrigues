@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-image: 
+    linear-gradient( #522258,#8C3061,#3a2734 );
+    position: relative;
+    overflow: hidden;
+}
+.box-registrar{
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(45deg,  #000000, #1b1b1b, #252525, #2d2d2d );
+    z-index: 1;
+    opacity: 1.0;
+    border: 2px, solid #b5b1b7;
+    border-radius: 10px;
+    color: #b5b1b7;
+}
+.grupo{
+    margin-bottom: 5px;
+}
+
+label{
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+input{
+    position: relative;
+    width: 95%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid beige;
+    background-color: #1b1b1b;
+    color: #ffffff;
+
+}
+input::placeholder{
+    color:#b5b1b7;
+}
+input:hover{
+    background-color: rgba(100, 100, 100, 0.671); 
+}
+.show-password{
+    margin-top: 5px;
+    font-size: 12px;
+    color: #b5b1b7;
+    cursor: pointer;
+}
+.titulo{
+    display: block;
+    margin-bottom: -5px;
+    text-align: center;
+    line-height: 0;
+    color: #ffffff;
+    font-size: 20px;
+}
+.sexo{
+    background-color: #1b1b1b;
+    color: #b5b1b7;
+}
+.sexo:hover{
+    background-color: rgba(100, 100, 100, 0.671); 
+}
+.nascimento-label{   
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding: 5px;
+
+}
+.nascimento-input{
+    width: 20%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid beige;
+    background-color: #1b1b1b;
+    color: #b5b1b7;
+}
+.nascimento-input:hover{
+    background-color: rgba(100, 100, 100, 0.671); 
+}
+.limpar{
+    position: relative;
+    margin: 10px;
+    bottom: -50px;
+    left: 250px;
+    width: 20%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 1px solid beige;
+    background-color: #681616;
+    color: #b5b1b7;
+    cursor: pointer;
+    z-index: 2;
+}
+.limpar:hover{
+    background-color: #b32727;
+    transform: translate(-5%, -5%) scale(1.05);
+}
+.pronto{
+    position: relative;
+    margin: 10px;
+    bottom: -50px;
+    left: 250px;
+    width: 20%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 1px solid beige;
+    background-color: #1b1b1b;
+    color: #b5b1b7;
+    cursor: pointer;
+    z-index: 2;
+
+}
+.pronto:hover{
+    background-color: rgba(100, 100, 100, 0.671);
+    transform: translate(-5%, -5%) scale(1.05);   
+}
